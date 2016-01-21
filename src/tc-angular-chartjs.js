@@ -55,8 +55,8 @@
           data: '=chartData',
           options: '=chartOptions',
           type: '@chartType',
-          legend: '=chartLegend',
-          chart: '=chart',
+          legend: '=?chartLegend',
+          chart: '=?chart',
           click: '&chartClick'
         },
         link: link
